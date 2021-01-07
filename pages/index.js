@@ -2,8 +2,10 @@ import { useState } from 'react'
 
 function Home() {
     return <div>
-        <h1>Bem vindo ao Speed Teste da Juju</h1>
-        
+        <h1>Página Inicial</h1>
+        <h2>Você está na branch de teste</h2>
+        <div> Testando as ferramentas da Vercel enquanto isso...</div>
+
         <Contador />
         <div>Teste</div>
          </div>
