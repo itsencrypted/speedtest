@@ -1,81 +1,41 @@
+
+
+
+
+Skip to content
+Using It's Encrypted Mail with screen readers
+Meet
+Hangouts
+
+Conversations
+[MARKDOWN_MAKER] Welcome to Etheachers
+Inbox
+Start timer
+
+juliana@itsencrypted.com
+Attachments
+10:06 AM (0 minutes ago)
+to me
+
+Your converted markdown document is attached (converted from 
+https://docs.google.com/open?id=1G2QtYc9XN_njpoTvi5BD3wPJP9IWcyRltynehn_ehxU)
+
+Don't know how to use the format options? See 
+http://github.com/mangini/gdocs2md
+
+4 Attachments
+
 # Welcome to Etheachers!
 
 We are a community of Ethereum teachers that got together to bring you the best of Ethereum development to you. Together (you and us), we will build functional and awesome applications to allow the Ethereum ecosystem to expand its usage.
 
-<table>
-  <tr>
-    <td>class _EtheachersAppState extends State<EtheachersApp> {</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td> @override</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td> Widget build(BuildContext context) {</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>   return MaterialApp(</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>     initialRoute: '/splash',</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>     routes: {</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>       '/': (context) => HomeScreen(),</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>       '/splash': (context) => SplashScreen(),</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>       '/aboutus': (context) => AboutUsScreen(),</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>     },</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>   );</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td> }</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>}</td>
-  </tr>
-</table>
-
-
 ![image alt text](image_0.png)
 
-Source: Here’s an example of a Museum
+Source: Here’s an example of a Museum. This image was uploaded from my computer.
+
+![image alt text](image_1.jpg)
+
+And here’s a picture of a museum; but this one was picked on the interwebs.
 
 And finally...don’t forget to visit: [https://itsencrypted.com](https://itsencrypted.com)
 
@@ -136,3 +96,78 @@ As we move on with our nonsense text, we have now reached a level of understandi
 To explain better, let’s highlight some of the text in yellow to see if this markdown language will actually convert the highlighted text.
 
 It is important to mention that the more I write; the easier it will be.
+
+import { useState } from 'react'
+
+function Home() {
+
+   return <div>
+
+       <h1>Página Inicial</h1>
+
+       <h2>Você está na branch de teste</h2>
+
+       <div> Testando as ferramentas da Vercel enquanto isso...</div>
+
+       <Contador />
+
+       <div>Teste</div>
+
+        </div>
+
+}
+
+function Contador(){
+
+   const [contador, setContador] = useState(1);
+
+   function adicionarContador(){
+
+       setContador(contador + 1);
+
+   }
+
+   return(
+
+       <div>
+
+           <div>{contador}</div>
+
+           <button onClick={adicionarContador}>Adicionar</button>
+
+       </div>
+
+   )
+
+}
+
+export default Home
+
+This was a code snippet taken from VSCode
+
+And here goes another code snippet; but this time from Android Studio; and further changed to CourierNew font:
+
+import 'package:flutter/material.dart';
+
+class AboutUsScreen extends StatelessWidget {
+
+ static const String *id *= '/aboutus';
+
+ @override
+
+ Widget build(BuildContext context) {
+
+   return Container();
+
+ }
+
+}
+
+Let’s see how this goes…
+
+Thanks for staying here.
+
+	
+
+Welcome to Etheachers.md
+Displaying Welcome to Etheachers.md. 
